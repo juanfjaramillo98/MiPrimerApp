@@ -8,7 +8,7 @@
     android:id="@+id/login_root"
 
     >
-    
+
 
     <ImageView
         android:layout_width="wrap_content"
@@ -30,6 +30,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Username"
+            android:id="@+id/et_user"
             android:layout_marginBottom="20dp"
             android:layout_marginLeft="40dp"
             android:layout_marginRight="40dp"
@@ -41,6 +42,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Password"
+            android:id="@+id/et_password"
             android:layout_marginBottom="20dp"
             android:layout_marginLeft="40dp"
             android:layout_marginRight="40dp"
@@ -53,6 +55,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="20dp"
             android:text="LOG IN"
+            android:id="@+id/btn_login"
             android:background="#000"
             android:textColor="#FFFFFF"
             />
@@ -70,6 +73,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Register"
+            android:id="@+id/tv_reg"
             android:textSize="20sp"
 
             android:textColor="#000"
